@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header*/
+.encabezado{
+    background-color: rgb(98, 163, 219);
+    box-shadow: 0px 3px 7px rgba(0,0,0,1.0);
+}
+
+.hijo_encabezado{
+    display: grid;
+    grid-template-columns: 210px 540px 200px;
+    grid-template-rows: 222px;
+    
+}
+
+.foto{
+    background-color: aqua;
+    margin: 60px 30px 30px 80px;
+    box-shadow: 0px 3px 7px rgba(0,0,0,1.0);
+}
+
+.nombre_postulante{
+    margin: 100px 0 0 0px ;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    height: 70px;
+}
+
+.datos{
+    margin: 60px 0 0 60px;
+    line-height: 1.6;
+    height: 150px;
+    background-color: rgb(98, 163, 219);
+    font-weight: bold;
+}
+
+/*barra de menu*/
+.grid li{
+    display: inline-block;
+}
+
+.menu{
+    margin: 30px 0 0 700px ;
+}
+
+.boton_menu{
+    background-color: darkorange;  
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 7px;
+    border-color:rgb(242, 43, 8);
+    box-shadow: 0px 3px 7px rgba(0,0,0,1.0);
+    margin-bottom: 15px;   
+}
+
+/*seccion de items informativos*/
+.informacion{
+    display:inline-block;
+}
+
+.item{
+    background-color:  rgb(191, 208, 222);
+    margin: 30px 30px 30px 30px; 
+    height: 150px;
+    line-height: 1.6;
+}
+
+#experiencia{
+    height: 200px;
+}
+
+#habili{
+    height: 230px; 
+}
+
+#estudios{
+    height: 170px;
+}
+
+.footer{
+    background-color: rgb(98, 163, 219);
+    box-shadow: 0px 4px 20px rgba(0,0,0,1.0);
+    height: 150px;
+}
+
+.contacto{
+    background-color: darkorange;  
+    width: 150px;
+    box-shadow: 0px 3px 7px rgba(0,0,0,1.0);
+          
+}
+
+.contacto-titulo{
+    color: white;
+    margin: 15px 0 15px 30px;
+    font-weight: bold;
+}
+
+.btn_referencia{
+    position:sticky;
+    margin-left: 480px;
+    background-color: darkorange;  
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 7px;
+    border-color:rgb(242, 43, 8);
+    box-shadow: 0px 3px 7px rgba(0,0,0,1.0);
+    margin-bottom: 15px; 
+}
+
+#boton_ocultar{
+    margin-left: 30px;
+}
+
+#info_mostrable{
+    display: none;
+    background-color: rgb(230, 228, 228);
+    height: 170px;
+    border-style: groove;
+    
+    box-shadow: 0px 0px 10px rgba(0,0,0,1.0);
+
+}
+
+.info-footer{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.redes{
+    position: absolute;
+    margin: 15px 20px 0 30px;
+    width: 30px;
+    height: 30px;
+}
+
+#linkedin{
+    margin: 15px 0 0 70px;
+        
+}
